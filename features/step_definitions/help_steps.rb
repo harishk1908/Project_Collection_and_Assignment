@@ -57,8 +57,8 @@ Given (/^a user$/) do |table|
   @user = User.create!(
     admin: false,
     email: data['Email'] || 'user1@test.com',
-    firstname: data['Firstname'] || 'Test',
-    lastname: data['Lastname'] || 'User',
+    firstname: data['Firstname'] || 'TestFirstName',
+    lastname: data['Lastname'] || 'TestLastName',
     password: data['Password'] || 'password',
     uin: data['UIN'] || '111111111',
     year: data['Year'] || '2018',
@@ -72,8 +72,8 @@ Given (/^an admin$/) do |table|
   @user = User.create!(
     admin: true,
     email: data['Email'] || 'admin1@test.com',
-    firstname: data['Firstname'] || 'Test',
-    lastname: data['Lastname'] || 'Admin',
+    firstname: data['Firstname'] || 'TestFirstName',
+    lastname: data['Lastname'] || 'TestLastName',
     password: data['Password'] || 'password',
     uin: data['UIN'] || '123123123',
     year: data['Year'] || '2018',
