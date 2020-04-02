@@ -2,10 +2,12 @@ Feature: Login home page
   
     Scenario: Signup
       Given I am on signup_page
-      And I fill in the following details:
-       |Name|admin1|
+      And I fill in the following details: 
+       |First Name|admin1|
+       |Last Name|admin1|
        |UIN|123456789|
        |Email|karthi1@karthik.com|
+       |Personal Email|karthi1@karthik.com|
        |Password|karthi123|
        |Confirmation|karthi123|
        |Semester|Fall|
@@ -36,7 +38,8 @@ Feature: Login home page
   	Scenario: Team tab, logout
   	  Given I am on signup_page
       And I fill in the following details:
-       |Name|admin2|
+       |First Name|admin2|
+       |Last Name|admin2| 
        |UIN|123456789|
        |Email|karthi2@karthik.com|
        |Password|karthi123|
@@ -65,7 +68,8 @@ Feature: Login home page
 	Scenario: Create team, attempt leave team as leader, then delete team
       Given I am on signup_page
       And I fill in the following details:
-       |Name|admin3|
+       |First Name|admin3|
+       |Last Name|admin3|
        |UIN|123456789|
        |Email|karthi3@karthik.com|
        |Password|karthi123|
@@ -91,7 +95,8 @@ Feature: Login home page
   	Scenario: Project tab
   	  Given I am on signup_page
       And I fill in the following details:
-       |Name|admin4|
+       |First Name|admin4|
+       |Last Name|admin4|
        |UIN|123456789|
        |Email|karthi4@karthik.com|
        |Password|karthi123|
@@ -141,7 +146,8 @@ Feature: Login home page
   	Scenario: Account tab
   	  Given I am on signup_page
       And I fill in the following details:
-       |Name|admin5|
+       |First Name|admin5|
+       |Last Name|admin5|
        |UIN|123456789|
        |Email|karthi5@karthik.com|
        |Password|karthi123|
@@ -204,8 +210,9 @@ Feature: Login home page
       And I should see "Name"
       And I should see "UIN"
       And I should see "Email"
+      And I should see "Personal Email"
       And I should see "Password"
-      And I should see "Confirmation"
+      And I should see "Confirm Password"
       And I should see "Semester"
       And I should see "Year"
       And I should see "Course"
