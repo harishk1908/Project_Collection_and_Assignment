@@ -41,6 +41,7 @@ Feature: Login home page
        |Lastname|admin2|
        |UIN|123456789|
        |Email|karthi2@karthik.com|
+       |Personal Email|karthi2@karthik.com|
        |Password|karthi123|
        |Confirm Password|karthi123|
        |Semester|Fall|
@@ -70,6 +71,7 @@ Feature: Login home page
        |Lastname|admin3|
        |UIN|123456789|
        |Email|karthi3@karthik.com|
+       |Personal Email|karthi2@karthik.com|
        |Password|karthi123|
        |Confirm Password|karthi123|
        |Semester|Fall|
@@ -97,6 +99,7 @@ Feature: Login home page
        |Lastname|admin4|
        |UIN|123456789|
        |Email|karthi4@karthik.com|
+       |Personal Email|karthi2@karthik.com|
        |Password|karthi123|
        |Confirm Password|karthi123|
        |Semester|Fall|
@@ -148,6 +151,7 @@ Feature: Login home page
        |Lastname|admin5|
        |UIN|123456789|
        |Email|karthi5@karthik.com|
+       |Personal Email|karthi2@karthik.com|
        |Password|karthi123|
        |Confirm Password|karthi123|
        |Semester|Fall|
